@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ----------------- start styling here ------------------------ */
+
+.main-container {
+  width: 800px;
+  margin: 5% auto 0 auto;
+  height: 95%;
+  position: relative;
+}
+
+.main-container button {
+  display: none;
+}
+
+#user-details {
+  visibility: hidden;
+  width: 100%;
+  height: 250px;
+}
+
+#user-details img {
+  position: absolute;
+  left: 325px;
+  top: 0;
+  display: none;
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 75px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+          border-radius: 75px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */  
+}
+
+#welcome {
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 15px 0;
+  top: 180px;
+  display: none;
+  width: 100%;
+}
+
+#progressbar {
+  position: relative;
+}
+
+.progress-label {
+  position: absolute;
+  left: 48%;
+  top: 8px;
+  font-weight: 400;
+  text-shadow: 1px 1px 0 #fff;
+}

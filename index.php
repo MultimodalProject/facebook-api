@@ -2,35 +2,30 @@
 
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Facebook connect</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/style.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>	
 	<script src="js/fb-init.js"></script>
-	<script src="js/app.js"></script>
+	<script src="js/fb-data-handler.js"></script>	
+	<script src="js/fb-login.js"></script>
+	<script src="js/interface.js"></script>
 </head>
 
 <body>
 	<div id="fb-root"></div>
+	<div class="main-container">
 
-	<div id="user-details" style="display: none;">
-		<h1 id="welcome"></h1>
-		<div id="profile-pic">
+		<div id="user-details">
+			<img src="" alt="" width="150" height="150">
+			<h1 id="welcome"></h1>
 		</div>
 
-		<p>User ID: <span id="user-id"></span></p>
-		<p>Gender: <span id="gender"></span></p>
-		<p>Birthday: <span id="birthday"></span></p>
-		<p>Hometown: <span id="hometown"></span></p>
-		<p>Current Location: <span id="location"></span></p>
-		<p>Relationship Status: <span id="relationship-status"></span></p>
-		<p>Number of friends: <span id="friends"></span></p>
-		<p>Female: <span id="female"></span></p>
-		<p>Male: <span id="male"></span></p>
-
-		
+		<div id="progressbar"><div class="progress-label">Fetching data...</div></div>
+		<button id="fb-log-in">Connect to App via Facebook</button>
+		<button id="fb-log-out">Log out</button>
 	</div>
-	
-
-	<button id="fb-log-in" style="display: none;">Connect to App via Facebook</button>
-	<button id="fb-log-out" style="display: none;">Log out</button>
 </body>
 </html>
