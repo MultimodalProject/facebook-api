@@ -49,6 +49,10 @@ table {
 
 /* ----------------- start styling here ------------------------ */
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .main-container {
   width: 800px;
   margin: 5% auto 0 auto;
@@ -88,6 +92,13 @@ table {
   width: 100%;
 }
 
+.ui-widget-header {
+  border: 1px solid #aaaaaa;
+  background-image: none;
+  background-color: #3facf9;
+  color: #FFF;
+}
+
 #progressbar {
   position: relative;
 }
@@ -97,5 +108,4 @@ table {
   left: 48%;
   top: 8px;
   font-weight: 400;
-  text-shadow: 1px 1px 0 #fff;
 }

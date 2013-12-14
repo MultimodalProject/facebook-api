@@ -73,7 +73,7 @@ function fbLogout() {
 
 function startApp(userId) {
   dataHandler.getUserData(userId);
-  dataHandler.getListOfFriends(userId);  
+  dataHandler.getListOfFriends(userId); 
 }
 
 function loginBtn(display) {
