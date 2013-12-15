@@ -1,0 +1,6 @@
+TODO: 
+
+Simon:
+- add a php file which can query the database
+- implement a check in the beginning, so the data is not pulled if the user had done it before
+- inspirational people build proper array (at the moment it just says database)
