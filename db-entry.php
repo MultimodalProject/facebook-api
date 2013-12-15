@@ -8,7 +8,7 @@ $sql_query = array ();
 $i = 0;
 
 // connect to database
-$mysqli = new mysqli("localhost", "db1087652-veosg", "RpbKG7vX", "db1087652-veosg");
+$mysqli = new mysqli("idontmind.de", "db1087652-veosg", "RpbKG7vX", "db1087652-veosg");
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL";
 }
