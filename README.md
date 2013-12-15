@@ -7,7 +7,15 @@ TODO:
 
 - mutual friends (how it works, how to we put it to the database)
 - pull nodes and links from database, put it into json
-- question set ( show friends older then 21 )
+- question set 
+    1. Friends older than x
+    2. Friends younger than x
+    3. Friends of x who are female
+    4. Friends of x who live in y
+    5. Females from Y
+    6. zoom in
+    7. zoom out
+    8. reset view
 - interaction with nodes ( hover, drag, see what happens )
 
 Simon:
