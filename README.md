@@ -4,6 +4,7 @@ facebook-api
 Pulls User data from the facebook graph API and places it in a relational DB.
 
 TODO: 
+- check how visualizations can be combined (better force layout and pan + zoom) 
 - pull nodes and links from database, put it into json
 - question set 
     1. Friends older than x
