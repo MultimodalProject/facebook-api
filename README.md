@@ -4,7 +4,6 @@ facebook-api
 Pulls User data from the facebook graph API and places it in a relational DB.
 
 TODO: 
-- check how visualizations can be combined (better force layout and pan + zoom) 
 - pull nodes and links from database, put it into json
 - question set 
     1. Friends older than x
@@ -25,3 +24,9 @@ Simon:
 Doga:
 - add a php file which can query the database
 - implement a check in the beginning, so the data is not pulled if the user had done it before
+
+Shaun:
+- complete speech module
+    1. add name matching
+    2. add additional question types and intents
+- figure out how to include the leapmotion module with the animation frame loop
