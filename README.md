@@ -17,11 +17,11 @@ TODO:
     7. zoom out
     8. reset view
 - interaction with nodes ( hover, drag, see what happens )
-- objects missing from data base ( not all are inserted )
 
 Simon:
 - implement a check in the beginning, so the data is not pulled if the user had done it before
 - inspirational people build proper array (at the moment it just says database)
+- objects missing from data base ( not all are inserted )
 
 Doga:
 - add a php file which can query the database
